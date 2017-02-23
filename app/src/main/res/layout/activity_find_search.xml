@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button android:id="@+id/findDetailSearchBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/ic_media_rew" />
+        <EditText   android:id="@+id/findDetailSearchInput"
+            android:layout_width="360dp"
+            android:layout_height="91dp"
+            android:textSize="25dp"
+            android:background="@drawable/search1"
+            android:hint="请输入内容"
+            android:layout_gravity="center"
+            android:layout_marginBottom="110dp"
+            android:gravity="center"
+            android:inputType="number"
+            android:textColor="#fefdfd"
+            android:textColorHint="#fefefe"
+            />
+
+        <Button android:id="@+id/findDetailSearchBtn"
+            android:layout_width="66dp"
+            android:layout_height="61dp"
+            android:text="搜索"
+            android:gravity="center"
+            android:background="@drawable/button"
+            android:textSize="18dp"
+            android:layout_marginBottom = "110dp"
+            android:layout_marginRight = "40dp"
+            android:layout_gravity="right|center_vertical"
+            android:textColor="#f3200d"
+
+            />
+
+        </FrameLayout>
+
+
+</LinearLayout>

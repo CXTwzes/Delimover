@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/friendsInfo"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView android:id="@+id/friendsIcon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@mipmap/ic_launcher"/>
+    <TextView android:id="@+id/friendsId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="章三风"
+        android:gravity="left"
+        android:textSize="20dp"
+        android:layout_gravity="center"/>
+</LinearLayout>

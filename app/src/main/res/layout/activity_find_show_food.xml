@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="40dp"
+    android:paddingRight="40dp"
+    android:weightSum="1"
+    android:descendantFocusability="blocksDescendants">
+
+    <ImageView android:id="@+id/findDetailFragmentShowFoodImageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="fitXY"
+         />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <Button android:id="@+id/findDetailFragmentShowFoodGoodBtn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:gravity="left"
+            android:paddingLeft="40dp"
+            android:layout_alignParentLeft="true"
+            android:background="@android:drawable/btn_star_big_off" />
+
+        <Button android:id="@+id/findDetailFragmentShowFoodCommentBtn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:paddingRight="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:background="@android:drawable/ic_menu_myplaces" />
+
+    </RelativeLayout>
+</LinearLayout>

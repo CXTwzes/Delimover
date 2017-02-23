@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Delimover</string>
+    <string-array name="type">
+        <item>找草</item>
+        <item>开荒</item>
+    </string-array>
+
+</resources>

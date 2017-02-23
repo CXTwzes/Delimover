@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout android:id="@+id/lawnWarehouseFragmentTop"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/item_bar"
+        >
+        <Button android:id="@+id/activityLawnWarehouseFragment1BackBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:background="@android:drawable/ic_menu_revert" />
+        <Button android:id="@+id/activityLawnWarehouseFragment1InBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_gravity="right"
+            android:layout_alignParentRight="true"
+            android:background="@android:drawable/ic_menu_share" />
+    </RelativeLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/lawnWarehouseViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/lawnWarehouseFragmentTop"
+        android:layout_above="@+id/lawnWarehouseFragmentBottom">
+
+    </android.support.v4.view.ViewPager>
+
+    <RelativeLayout android:id="@+id/lawnWarehouseFragmentBottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="4dp"
+                android:layout_height="4dp" />
+
+            <Button
+                android:layout_width="4dp"
+                android:layout_height="4dp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>
